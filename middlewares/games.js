@@ -79,7 +79,7 @@ const checkEmptyFields = async (req, res, next) => {
   console.log("checkEmptyFields")
   if(req.isVoteRequest) {
     next();
-   
+   return;
   }
   if (
     !req.body.title ||
