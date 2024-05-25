@@ -1,7 +1,7 @@
 // Вместо нашего адреса вставь свой
 // Можно ещё не удалять адреса с localhost, но мы удалили для краткости
 const allowedCors = ["https://mishanya.frontend.nomoredomainswork.ru",
-                      "https://mishanya.backend.nomoredomainswork.ru"];
+                      "https://mishanya.backend.nomoredomainswork.ru","http://localhost:3001/", "http://localhost:3000/"];
 
 function cors(req, res, next) {
   const { origin } = req.headers;
