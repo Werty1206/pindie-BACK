@@ -6,7 +6,7 @@ const pagesRouter = require("./routes/pageRouter")
 const cookieParser = require("cookie-parser");
 
 const connectToDatabase = require('./database/connect');
-const {cors} = require('./middlewares/cors');
+const cors = require('./middlewares/cors');
 
 const app = express();
 const PORT = 3001;
